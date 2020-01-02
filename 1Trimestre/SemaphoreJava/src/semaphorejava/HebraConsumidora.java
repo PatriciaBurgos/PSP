@@ -24,24 +24,14 @@ public class HebraConsumidora implements Runnable{
     public static final String ANSI_WHITE = "\u001B[37m";
     public static final String ANSI_RESET = "\u001B[0m";
 
-    //TENGO QUE HACER UN ARRAY DE HEBRAS; QUITAR EL NUMERO DE HEBRAS
     public Thread thr;
     Buffer b;
     int id_c;
     
     HebraConsumidora (Buffer buffer, int id_c){
-        // TODO NOSE SI ES MEJOR COPIAR EL BUFFER O NO HACER NADA
-        // TODO NO SE SI PONER EL NEW
-
-        
-        //this.buffer = new Integer [buffer.length];
-        //for(int i = 0; i< buffer.length; i++){
-        ///    this.buffer[i]=buffer[i];
-        //}
         this.id_c=id_c;
         b = buffer;
         thr = new Thread (this, "consumidora " + id_c);
-    // TODO A LO MEJOR NO HACE FALTA EL ID_C SI HAY ALGUN METODO QUE DIGA EL NOMBRE DE LA HEBRA
     }
     
     @Override

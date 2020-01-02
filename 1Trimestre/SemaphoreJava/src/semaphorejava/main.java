@@ -25,14 +25,8 @@ public class main {
         num_hebras_cons = Integer.parseInt(args[3]);
         terminan_cons = Integer.parseInt(args[4]);
         
-        
-        
         System.out.println("Tamanio_buffer = " + tamanio_buffer + "; Num_hebras_prod = " + num_hebras_prod + "; Terminan_prod = " + terminan_prod + "; Num_hebras_cons = " + num_hebras_cons + "; Terminan_ cons = " + terminan_cons );
-        
-       // for(int i = 0; i<tamanio_buffer; i++){
-       //     buffer[i]=0;
-       // }
-        
+                
         entrada = 0;
         salida = 0;
         
