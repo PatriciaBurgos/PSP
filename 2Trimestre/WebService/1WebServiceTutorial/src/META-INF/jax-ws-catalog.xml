@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="https://github.com/PacktPublishing/SoapUI-Cookbook/blob/master/Chapter1/chapter1/soap/invoicev1/wsdl/invoice_v1.wsdl" uri="xml-resources/web-service-references/invoice_v1/wsdl/github.com/PacktPublishing/SoapUI-Cookbook/blob/master/Chapter1/chapter1/soap/invoicev1/wsdl/invoice_v1.wsdl"/>
+    <system systemId="https://footballpool.dataaccess.eu/info.wso?WSDL" uri="wsdl/footballpool.dataaccess.eu/info.wso.wsdl"/>
+</catalog>
